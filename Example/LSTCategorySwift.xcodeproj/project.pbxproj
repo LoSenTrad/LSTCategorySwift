@@ -44,9 +44,9 @@
 		87CF04063243CB92D06A9BEB /* Pods_LSTCategorySwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSTCategorySwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B40CCE661776AB23E3915F5 /* Pods-LSTCategorySwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTCategorySwift_Example.release.xcconfig"; path = "Target Support Files/Pods-LSTCategorySwift_Example/Pods-LSTCategorySwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B80294BFBEB567C96A892BC /* Pods_LSTCategorySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSTCategorySwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6F7F300C82B773732145E14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D96EAF318525818FD491F131 /* LSTCategorySwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LSTCategorySwift.podspec; path = ../LSTCategorySwift.podspec; sourceTree = "<group>"; };
-		DE57C83A4D8F3E7B715C7F47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B6F7F300C82B773732145E14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D96EAF318525818FD491F131 /* LSTCategorySwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LSTCategorySwift.podspec; path = ../LSTCategorySwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE57C83A4D8F3E7B715C7F47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				4FDE2485BDF388ABD26F70DB /* Pods-LSTCategorySwift_Tests.debug.xcconfig */,
 				7050275F844C990DC3A24ED5 /* Pods-LSTCategorySwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
