@@ -1,14 +1,9 @@
 use_frameworks!
-use_modular_headers!
 
 platform :ios, '9.0'
 
 target 'LSTCategorySwift_Example' do
   pod 'LSTCategorySwift', :path => '../'
-  pod 'YYModel'
 
-  target 'LSTCategorySwift_Tests' do
-    inherit! :search_paths
-
-  end
+ 
 end

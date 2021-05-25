@@ -1,27 +1,23 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - LSTCategorySwift (0.1.0)
+  - LSTCategorySwift (0.1.11):
+    - YYModel
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - LSTCategorySwift (from `../`)
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
+    - YYModel
 
 EXTERNAL SOURCES:
   LSTCategorySwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LSTCategorySwift: d534e4131b9f57940321f22db6cda24d7892d0d7
+  LSTCategorySwift: 907f2ec2b7ce05cfd887ef5dc3b99fa303b3fd72
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 9f4526fa48f599f8de8ff56c8a8b7b52400743e5
+PODFILE CHECKSUM: 219764b3270a4cda54140e6da651bf65e5b91a88
 
 COCOAPODS: 1.10.1
